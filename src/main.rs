@@ -8,7 +8,7 @@ fn main() {
 
         if counter == 10 {
             // Break is sorta like return here? I beleive the break is interpreted first, nullifying the loop
-            // and then "counter * 2;" is placed after "let result = "
+            // and then "counter * 2;" is placed after "let result = ", could be wrong....
             break counter * 2;
         }
     };
